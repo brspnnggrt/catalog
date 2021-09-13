@@ -6,7 +6,9 @@ import pdf_tx2_90 from './tx2-90.pdf';
 import { List, Space } from 'antd';
 import React from 'react';
 import { MessageOutlined, LikeOutlined, StarOutlined } from '@ant-design/icons';
-import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
+// import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
+import { Document, Page, pdfjs } from 'react-pdf';
+
 
 import './App.css';
 
@@ -34,6 +36,7 @@ class App extends React.Component {
 
   constructor(props) {
     super(props);
+    pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
     this.state = {
       showSpecTx2_40: false,
       showSpecTx2_90: false

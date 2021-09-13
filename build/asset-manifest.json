@@ -1,21 +1,19 @@
 {
   "files": {
     "main.css": "/catalog/build/static/css/main.e77f42da.chunk.css",
-    "main.js": "/catalog/build/static/js/main.ae4de57d.chunk.js",
-    "main.js.map": "/catalog/build/static/js/main.ae4de57d.chunk.js.map",
+    "main.js": "/catalog/build/static/js/main.70183ac1.chunk.js",
+    "main.js.map": "/catalog/build/static/js/main.70183ac1.chunk.js.map",
     "runtime-main.js": "/catalog/build/static/js/runtime-main.71adc128.js",
     "runtime-main.js.map": "/catalog/build/static/js/runtime-main.71adc128.js.map",
     "static/css/2.a95be28f.chunk.css": "/catalog/build/static/css/2.a95be28f.chunk.css",
-    "static/js/2.95215ee3.chunk.js": "/catalog/build/static/js/2.95215ee3.chunk.js",
-    "static/js/2.95215ee3.chunk.js.map": "/catalog/build/static/js/2.95215ee3.chunk.js.map",
+    "static/js/2.f35d11ad.chunk.js": "/catalog/build/static/js/2.f35d11ad.chunk.js",
+    "static/js/2.f35d11ad.chunk.js.map": "/catalog/build/static/js/2.f35d11ad.chunk.js.map",
     "static/js/3.63458ecd.chunk.js": "/catalog/build/static/js/3.63458ecd.chunk.js",
     "static/js/3.63458ecd.chunk.js.map": "/catalog/build/static/js/3.63458ecd.chunk.js.map",
-    "9ffaf20539805c5f694911c4b3b4df81.js": "/catalog/build/9ffaf20539805c5f694911c4b3b4df81.js",
-    "9ffaf20539805c5f694911c4b3b4df81.js.LICENSE.txt": "/catalog/build/9ffaf20539805c5f694911c4b3b4df81.js.LICENSE.txt",
     "index.html": "/catalog/build/index.html",
     "static/css/2.a95be28f.chunk.css.map": "/catalog/build/static/css/2.a95be28f.chunk.css.map",
     "static/css/main.e77f42da.chunk.css.map": "/catalog/build/static/css/main.e77f42da.chunk.css.map",
-    "static/js/2.95215ee3.chunk.js.LICENSE.txt": "/catalog/build/static/js/2.95215ee3.chunk.js.LICENSE.txt",
+    "static/js/2.f35d11ad.chunk.js.LICENSE.txt": "/catalog/build/static/js/2.f35d11ad.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/catalog/build/static/media/logo.6ce24c58.svg",
     "static/media/tx2-40.4d0c74db.jpg": "/catalog/build/static/media/tx2-40.4d0c74db.jpg",
     "static/media/tx2-40.55c188b1.pdf": "/catalog/build/static/media/tx2-40.55c188b1.pdf",
@@ -25,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.71adc128.js",
     "static/css/2.a95be28f.chunk.css",
-    "static/js/2.95215ee3.chunk.js",
+    "static/js/2.f35d11ad.chunk.js",
     "static/css/main.e77f42da.chunk.css",
-    "static/js/main.ae4de57d.chunk.js"
+    "static/js/main.70183ac1.chunk.js"
   ]
 }
