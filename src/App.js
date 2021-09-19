@@ -157,11 +157,12 @@ const IconText = ({ icon, text }) => (
 const infoModal = (item) => {
   Modal.info({
     title: 'Datasheet',
+    
     width: '90%',
     style: {top: '25px'},
     content: (
       <Document file={require(`./${item.Id}.pdf`).default}>
-        <Page pageNumber={2} scale={1}/>
+        <Page pageNumber={2} scale={1} width={800}/>
       </Document> 
     ),
     onOk() {},
