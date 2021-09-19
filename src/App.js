@@ -176,7 +176,7 @@ class App extends React.Component {
 
     const id = 'antd-staubli-catalog';
     this.state = {
-      loading: false,  // TODO: set to true
+      loading: true,  // TODO: set to true
       id: id,
       taskIdRequestData: `${id}-requestData`,
       data: {Products : []},
