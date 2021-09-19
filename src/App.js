@@ -94,6 +94,16 @@ class App extends React.Component {
       script: `window.location.replace('/Configurator.aspx?pid=${item.Id}&cid=${item.CategoryId}');`
     }, "https://eusb.webcomcpq.com/");
   }
+
+  getImage = (item) => {
+    try {
+      let importedImage = require(`./${item.Id}.jpg`);
+      return importedImage.default;
+    }
+    catch {
+      return null;
+    }
+  }
   
   render() {
     return (
@@ -107,7 +117,7 @@ class App extends React.Component {
               renderItem={item => (
                 <List.Item>
                   <List.Item.Meta title={item.Name} />
-                  <img width='200' height='200' src={require(`./${item.Id}.jpg`).default} />
+                  <img width='200' height='200' src={() => this.getImage(item)} />
                   <Button type="secondary" disabled={!item.CanConfigure} onClick={() => infoModal(item)}>Datasheet</Button>
                   <Button type="primary" disabled={!item.CanConfigure} onClick={() => this.configureProduct(item)}>Configure</Button>
                 </List.Item>
