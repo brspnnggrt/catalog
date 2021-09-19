@@ -117,9 +117,9 @@ class App extends React.Component {
               renderItem={item => (
                 <List.Item>
                   <List.Item.Meta title={item.Name} />
-                  <img width='200' height='200' src={() => this.getImage(item)} />
+                  <img width='200' height='200' src={this.getImage(item)} />
                   <Button type="secondary" disabled={!item.CanConfigure} onClick={() => infoModal(item)}>Datasheet</Button>
-                  <Button type="primary" disabled={!item.CanConfigure} onClick={() => this.getImage(item)}>Configure</Button>
+                  <Button type="primary" disabled={!item.CanConfigure} onClick={() => this.configureProduct(item)}>Configure</Button>
                 </List.Item>
               )}
             />
