@@ -28,15 +28,30 @@ class App extends React.Component {
       loading: true,  // TODO: set to true
       id: id,
       taskIdRequestData: `${id}-requestData`,
+      taskIdProductsChangeEvent: `${id}-productsChangeEvent`,
       data: {Products : []},
       isModalVisible: false
     };
     window.addEventListener("message", this.onMessageReceived, false);
     this.requestData();
+
+    window.parent.postMessage({
+      runScript: true,
+      script: `
+                cpq.models.catalog.products.subscribe(() => {
+                  let attributeChangeEvent = {
+                    taskId: '${this.state.taskIdProductsChangeEvent}'
+                  };
+                  let iframe = document.getElementById('${this.state.id}');
+                  iframe.contentWindow.postMessage(attributeChangeEvent, "https://brspnnggrt.github.io/");
+                });
+              `
+    }, "https://eusb.webcomcpq.com/");
   }
 
   onMessageReceived = event => {
     if (event.data.taskId === this.state.taskIdRequestData) this.update(event);
+    if (event.data.taskId === this.state.taskIdProductsChangeEvent) this.requestData(event);
   };
 
   showSpecTx2_40(){
