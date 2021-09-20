@@ -9,7 +9,7 @@ const infoModal = (item) => {
     width: '90%',
     style: {top: '25px'},
     content: (
-      <Document file={require(`./${item.Id}.pdf`).default}>
+      <Document file={require(`./${item.Name.replace(/\//g, '-')}.pdf`).default}>
         <Page pageNumber={2} scale={1} width={800}/>
       </Document> 
     ),
