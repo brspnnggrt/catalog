@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/catalog/build/static/css/main.e77f42da.chunk.css",
-    "main.js": "/catalog/build/static/js/main.3c55c56e.chunk.js",
-    "main.js.map": "/catalog/build/static/js/main.3c55c56e.chunk.js.map",
-    "runtime-main.js": "/catalog/build/static/js/runtime-main.99495e1a.js",
-    "runtime-main.js.map": "/catalog/build/static/js/runtime-main.99495e1a.js.map",
+    "main.js": "/catalog/build/static/js/main.572eb6bb.chunk.js",
+    "main.js.map": "/catalog/build/static/js/main.572eb6bb.chunk.js.map",
+    "runtime-main.js": "/catalog/build/static/js/runtime-main.95437715.js",
+    "runtime-main.js.map": "/catalog/build/static/js/runtime-main.95437715.js.map",
     "static/css/2.a95be28f.chunk.css": "/catalog/build/static/css/2.a95be28f.chunk.css",
-    "static/js/2.b2230dcc.chunk.js": "/catalog/build/static/js/2.b2230dcc.chunk.js",
-    "static/js/2.b2230dcc.chunk.js.map": "/catalog/build/static/js/2.b2230dcc.chunk.js.map",
-    "static/js/3.32d4c781.chunk.js": "/catalog/build/static/js/3.32d4c781.chunk.js",
-    "static/js/3.32d4c781.chunk.js.map": "/catalog/build/static/js/3.32d4c781.chunk.js.map",
+    "static/js/2.02eaf84f.chunk.js": "/catalog/build/static/js/2.02eaf84f.chunk.js",
+    "static/js/2.02eaf84f.chunk.js.map": "/catalog/build/static/js/2.02eaf84f.chunk.js.map",
+    "static/js/3.76398648.chunk.js": "/catalog/build/static/js/3.76398648.chunk.js",
+    "static/js/3.76398648.chunk.js.map": "/catalog/build/static/js/3.76398648.chunk.js.map",
     "index.html": "/catalog/build/index.html",
     "static/css/2.a95be28f.chunk.css.map": "/catalog/build/static/css/2.a95be28f.chunk.css.map",
     "static/css/main.e77f42da.chunk.css.map": "/catalog/build/static/css/main.e77f42da.chunk.css.map",
-    "static/js/2.b2230dcc.chunk.js.LICENSE.txt": "/catalog/build/static/js/2.b2230dcc.chunk.js.LICENSE.txt",
+    "static/js/2.02eaf84f.chunk.js.LICENSE.txt": "/catalog/build/static/js/2.02eaf84f.chunk.js.LICENSE.txt",
     "static/media/Installation TX2_140 - CS9.pdf": "/catalog/build/static/media/Installation TX2_140 - CS9.0f662e5a.pdf",
     "static/media/Installation TX2_140 - CS9.png": "/catalog/build/static/media/Installation TX2_140 - CS9.bbcb3f38.png",
     "static/media/Installation TX2_40 - CS9.png": "/catalog/build/static/media/Installation TX2_40 - CS9.355ad625.png",
@@ -23,13 +23,17 @@
     "static/media/Installation TX2_90 - CS9 - Standard.pdf": "/catalog/build/static/media/Installation TX2_90 - CS9 - Standard.0f662e5a.pdf",
     "static/media/Installation TX2_90 - CS9 - Standard.png": "/catalog/build/static/media/Installation TX2_90 - CS9 - Standard.a1a1acc0.png",
     "static/media/Installation TX2_90 - CS9.pdf": "/catalog/build/static/media/Installation TX2_90 - CS9.0f662e5a.pdf",
-    "static/media/Installation TX2_90 - CS9.png": "/catalog/build/static/media/Installation TX2_90 - CS9.770c30cc.png"
+    "static/media/Installation TX2_90 - CS9.png": "/catalog/build/static/media/Installation TX2_90 - CS9.770c30cc.png",
+    "static/media/Installation TX2_90XL - CS9 - CR ISO2.pdf": "/catalog/build/static/media/Installation TX2_90XL - CS9 - CR ISO2.0f662e5a.pdf",
+    "static/media/Installation TX2_90XL - CS9 - CR ISO2.png": "/catalog/build/static/media/Installation TX2_90XL - CS9 - CR ISO2.c88ee949.png",
+    "static/media/Installation TX2_90XL - CS9 - Standard.pdf": "/catalog/build/static/media/Installation TX2_90XL - CS9 - Standard.0f662e5a.pdf",
+    "static/media/Installation TX2_90XL - CS9 - Standard.png": "/catalog/build/static/media/Installation TX2_90XL - CS9 - Standard.f3edcdc0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.99495e1a.js",
+    "static/js/runtime-main.95437715.js",
     "static/css/2.a95be28f.chunk.css",
-    "static/js/2.b2230dcc.chunk.js",
+    "static/js/2.02eaf84f.chunk.js",
     "static/css/main.e77f42da.chunk.css",
-    "static/js/main.3c55c56e.chunk.js"
+    "static/js/main.572eb6bb.chunk.js"
   ]
 }
