@@ -112,7 +112,7 @@ class App extends React.Component {
 
   getImage = (item) => {
     try {
-      let importedImage = require(`./${item.Id}.jpg`);
+      let importedImage = require(`./${item.Name.replace(/\//g, ' ')}.jpg`);
       return importedImage.default;
     }
     catch {
